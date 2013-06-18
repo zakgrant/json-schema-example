@@ -2,10 +2,10 @@
     "$schema": "http://json-schema.rog/draft-04/schema#",
     "type": "object",
     "properties": {
-        "/": { "$ref": "http://github.com/zakgrant/json-schema-example/entry-schema#" }
+        "/": { "$ref": "https://raw.github.com/zakgrant/json-schema-example/master/entry-schema.json" }
     },
     "patternProperties": {
-        "^(/[^/]+)+$": { "$ref": "http://github.com/zakgrant/json-schema-example/entry-schema#" }
+        "^(/[^/]+)+$": { "$ref": "https://raw.github.com/zakgrant/json-schema-example/master/entry-schema.json" }
     },
     "additionalProperties": false,
     "required": [ "/" ]
