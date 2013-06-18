@@ -1,0 +1,12 @@
+{
+    "$schema": "http://json-schema.rog/draft-04/schema#",
+    "type": "object",
+    "properties": {
+        "/": {}
+    },
+    "patternProperties": {
+        "^(/[^/]+)+$": {}
+    },
+    "additionalProperties": false,
+    "required": [ "/" ]
+}
