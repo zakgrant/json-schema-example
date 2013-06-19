@@ -5,7 +5,7 @@
     "description": "Schema for Feature",
     "type": "object",
     "properties": {
-        "settings": { "$ref" : "https://raw.github.com/zakgrant/json-schema-example/master/example1/setting-schema.json#" }
+        "settings": { "$ref" : "https://raw.github.com/zakgrant/json-schema-example/master/example1/settings-schema.json#" }
     },
     "additionalProperties": false,
     "required": [ "settings" ]
