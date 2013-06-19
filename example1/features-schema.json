@@ -1,11 +1,10 @@
 {
-    "id": "https://raw.github.com/zakgrant/json-schema-example/master/example1/features-schema#",
     "$schema": "http://json-schema.org/draft-04/schema#",
     "title": "Features Schema",
     "description": "Schema for features",
     "type": "object",
     "patternProperties": {
-        "^([a-zA-Z|_]+)$": { "$ref" : "https://raw.github.com/zakgrant/json-schema-example/master/example1/feature-schema1.json" }
+        "^([a-zA-Z|_]+)$": { "$ref" : "https://raw.github.com/zakgrant/json-schema-example/master/example1/feature-schema.json#" }
     },
     "additionalProperties": false
 }
