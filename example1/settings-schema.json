@@ -5,7 +5,7 @@
     "description": "Schema for settings",
     "type": "object",
     "patternProperties": {
-        "^([a-zA-Z|_]+)$": { "$ref" : "https://raw.github.com/zakgrant/json-schema-example/master/example1/settings-schema#" }
+        "^([a-zA-Z|_]+)$": { "$ref" : "https://raw.github.com/zakgrant/json-schema-example/master/example1/settings-schema.json#" }
     },
     "additionalProperties": false
 }
