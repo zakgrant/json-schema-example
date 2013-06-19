@@ -6,7 +6,7 @@
     "type": "object",
     "properties": {
         "meta": {},
-        "features": { "$ref" : "https://raw.github.com/zakgrant/json-schema-example/master/example1/features-schema.json##" }
+        "features": { "$ref" : "https://raw.github.com/zakgrant/json-schema-example/master/example1/features-schema.json#" }
     },
     "additionalProperties": false,
     "required": [ "features" ]
