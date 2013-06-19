@@ -1,0 +1,13 @@
+{
+    "id": "https://raw.github.com/zakgrant/json-schema-example/master/example1/base-schema#",
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "Base Schema",
+    "description": "Base schema from which all others are born",
+    "type": "object",
+    "properties": {
+        "meta": {},
+        "features": { "$ref" : "/features-schema#" }
+    },
+    "additionalProperties": false,
+    "required": [ "features" ]
+}
