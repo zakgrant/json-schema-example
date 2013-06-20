@@ -1,5 +1,5 @@
 {
-    "id": "https://raw.github.com/zakgrant/json-schema-example/master/example1/setting-schema#",
+    "id": "/setting-schema#",
     "$schema": "http://json-schema.org/draft-04/schema#",
     "title": "Setting Schema",
     "description": "Schema for setting",

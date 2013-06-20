@@ -1,11 +1,11 @@
 {
-    "id": "https://raw.github.com/zakgrant/json-schema-example/master/example1/feature-schema#",
+    "id": "/feature-schema#",
     "$schema": "http://json-schema.org/draft-04/schema#",
     "title": "Feature Schema",
     "description": "Schema for Feature",
     "type": "object",
     "properties": {
-        "settings": { "$ref" : "https://raw.github.com/zakgrant/json-schema-example/master/example1/settings-schema.json#" }
+        "settings": { "$ref" : "/settings-schema.json#" }
     },
     "additionalProperties": false,
     "required": [ "settings" ]
