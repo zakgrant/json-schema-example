@@ -15,3 +15,19 @@ i.e.
 From the directory root run the following.
 
 	be thin start -p 8040
+	
+#### Using the webservice
+
+These files can be easily got via referencing the applicable URI.
+ 
+Variables used in following explanations
+
+- $PORT = port set when starting the sinatra app
+
+##### Via Curl
+
+	curl -G http://localhost:$PORT/base-schema.json
+
+##### Via Browser
+
+    http://localhost:$PORT/base-schema.json
